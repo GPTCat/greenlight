@@ -13,7 +13,8 @@ gem 'bigbluebutton-api-ruby', '1.9.1'
 gem 'bootsnap', require: false
 gem 'clamby', '~> 1.6.10'
 gem 'cssbundling-rails', '>= 1.3.3'
-gem 'data_migrate', '>= 9.4.0'
+# gem 'data_migrate', '>= 9.4.1'
+gem 'data_migrate', git: 'https://github.com/ilyakatz/data-migrate.git', ref: '87b9660eee1b5c970c5ffdc65d03ac08473ab790'
 gem 'dotenv-rails'
 gem 'google-cloud-storage', '~> 1.44', require: false
 gem 'hcaptcha'
@@ -30,7 +31,7 @@ gem 'omniauth-rails_csrf_protection', '~> 1.0.2'
 gem 'pagy', '~> 6.0', '>= 6.0.0'
 gem 'pg'
 gem 'puma', '~> 5.6'
-gem 'rails', '~> 7.1.3', '>= 7.1.3.3'
+gem 'rails', '~> 7.2.0', '>= 7.2.0'
 gem 'redis', '~> 4.0'
 gem 'sprockets-rails', '>= 3.5.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
